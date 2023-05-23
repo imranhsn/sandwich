@@ -66,6 +66,7 @@ dependencies {
   implementation project(":sandwich")
   implementation project(":sandwich-datasource")
   implementation project(":sandwich-serialization")
+  implementation project(":sandwich-generator")
 
   // android supports
   implementation Dependencies.material
