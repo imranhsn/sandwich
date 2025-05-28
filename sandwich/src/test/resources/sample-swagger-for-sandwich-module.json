@@ -1,0 +1,19 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Sample API for Sandwich Module Test",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/data": {
+      "get": {
+        "summary": "Get some data",
+        "responses": {
+          "200": {
+            "description": "Successful data retrieval"
+          }
+        }
+      }
+    }
+  }
+}
